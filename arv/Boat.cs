@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    internal class Boat
+    internal class Boat : Vechiles 
     {
         public int Lenght;
         public string HullDesign;

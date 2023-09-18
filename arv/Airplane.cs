@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    internal class Airplane
+    internal class Airplane: Vechiles
     {
 
         public int Capacity;

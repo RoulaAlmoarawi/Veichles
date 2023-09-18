@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    internal class car
+    internal class car : Vechiles 
     {
         public int Doors;
         public bool isconvertible;

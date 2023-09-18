@@ -27,6 +27,31 @@
             Yacht yacht1 = new Yacht();
             Moped moped1 = new Moped();
 
+            car Volvo740 = new car();
+            Boat Jolle = new Boat();
+            Airplane g6 = new Airplane();
+           
+            Volvo740.Make = "Volvo";
+            Volvo740.Model = "740";
+            Volvo740.Move();
+
+            Jolle.Make = "OceanMaster";
+            Jolle.Model = "WaveDrifter3000";
+            Jolle .Move();
+            g6.Make = "G6";
+            g6.Model = "Norweigian AirLines";
+            g6.Move();
+
+
+            List<Vechiles > list = new List<Vechiles> ();
+            list.Add(Volvo740);
+            list.Add(Jolle);
+            list.Add(g6);
+
+
+
+
+
             
 
 
