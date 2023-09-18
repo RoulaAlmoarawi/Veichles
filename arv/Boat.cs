@@ -8,20 +8,6 @@ namespace arv
 {
     internal class Boat
     {
-        int Speed;
-        string Make;
-        int Year;
-        string FuelType;
-        public void GoForWard()
-        {
-            Console.WriteLine("Vroom");
-
-
-        }
-        public void Break()
-        {
-            Console.WriteLine("Your breaked your vechiles");
-        }
-
+       
     }
 }
