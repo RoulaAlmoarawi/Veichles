@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace arv
 {
-    public class Car
+    internal class car
     {
-        
+        public int Doors;
+        public bool isconvertible;
+
+
+        public void Honik()
+        {
+            Console.WriteLine("Toot, Toot");
+        }
+        public void PobTheTrunk()
+        {
+            Console.WriteLine("The trunk was opened");
+        }
     }
 }

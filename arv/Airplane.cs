@@ -10,6 +10,16 @@ namespace arv
     internal class Airplane
     {
 
+        public int Capacity;
+        public int Engines;
+        public void TakeOff()
+        {
+            Console.WriteLine(" Cabin cew, prepare for takeoff");
+        }
+        public void Land()
+        {
+            Console.WriteLine(" The airplane has landed");
+        }
     }
 
 
