@@ -34,12 +34,27 @@
             Volvo740.Make = "Volvo";
             Volvo740.Model = "740";
             Volvo740.Move();
+            Volvo740.Year = 1999;
+            Volvo740.Weight = 2500;
+            Volvo740.speed = 220;
+            Volvo740.Color = "Red";
+
 
             Jolle.Make = "OceanMaster";
             Jolle.Model = "WaveDrifter3000";
             Jolle .Move();
+            Jolle.Year = 2021;
+            Jolle.Weight = 1500;
+            Jolle.speed = 10;
+            Jolle.Color = "Gray";
+
             g6.Make = "G6";
             g6.Model = "Norweigian AirLines";
+            g6.speed = 1000;
+            g6.Weight = 1000;
+            g6.Color = "Blue";
+            g6.Year = 2022;
+
             g6.Move();
 
 
